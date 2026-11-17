@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-8.4 -5.2 64 64">
+  <defs>
+    <linearGradient id="a" x1="23.6" y1="53.5" x2="23.6" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#43d7bd"/>
+      <stop offset="1" stop-color="#4d6aeb"/>
+    </linearGradient>
+    <linearGradient id="b" x1="23.6" y1="0" x2="23.6" y2="53.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4d6aeb"/>
+      <stop offset="1" stop-color="#153c7a"/>
+    </linearGradient>
+  </defs>
+  <polygon fill="url(#b)" points="47.27 23.79 38.64 30.68 31.25 10.99"/>
+  <polygon fill="url(#b)" points="37.27 53.55 23.64 42.66 30.98 36.8"/>
+  <polygon fill="#36a0ad" points="30.98 36.8 23.64 42.66 16.29 36.8 23.64 17.23"/>
+  <polygon fill="url(#a)" points="38.64 30.68 30.98 36.8 23.64 17.23 28.61 3.98 31.25 10.99"/>
+  <polygon fill="#2d5ea3" points="42.24 40.29 37.27 53.55 30.98 36.8 38.64 30.68"/>
+  <polygon fill="url(#b)" points="0 23.79 8.63 30.68 16.02 10.99"/>
+  <polygon fill="url(#b)" points="10.01 53.55 23.64 42.66 16.29 36.8"/>
+  <polygon fill="#4d6aeb" points="28.61 3.98 23.64 17.23 18.66 3.98 23.64 0"/>
+  <polygon fill="url(#a)" points="23.64 17.23 16.29 36.8 8.63 30.68 16.02 10.99 18.66 3.98"/>
+  <polygon fill="#2d5ea3" points="5.03 40.29 10.01 53.55 16.29 36.8 8.63 30.68"/>
+</svg>

@@ -1,0 +1,374 @@
+[
+  {
+    "file": "posters/restaurante.jpg",
+    "shows": "Cocinero con delantal claro y guantes negros emplatando bajo una lámpara cálida en la barra de una cocina de restaurante en penumbra.",
+    "photographer": "Muhammad Rahiman Abdulmanab",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "url": "https://unsplash.com/photos/sthiQQhmljg",
+    "focal": {
+      "x": 59,
+      "y": 58
+    }
+  },
+  {
+    "file": "posters/cosmeticos.jpg",
+    "shows": "Clienta pelirroja de espaldas, con mochila, mirando estanterías iluminadas llenas de frascos y productos de cuidado personal en una tienda de cosméticos.",
+    "photographer": "Anastasiia Mitiushova",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "url": "https://unsplash.com/photos/nzFI459bffE",
+    "focal": {
+      "x": 56,
+      "y": 52
+    }
+  },
+  {
+    "file": "posters/ferreteria.jpg",
+    "shows": "Banco de trabajo en penumbra con alicates, llaves y otras herramientas de mano colgadas en la pared, iluminadas por dos lámparas de luz cálida.",
+    "photographer": "Ali Kaan Uçar",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "url": "https://unsplash.com/photos/j8UApawyq_c",
+    "focal": {
+      "x": 48,
+      "y": 52
+    }
+  },
+  {
+    "file": "posters/autopartes.jpg",
+    "shows": "Manos de un mecánico con camiseta oscura sosteniendo una pieza metálica sobre un banco de trabajo, con un motor eléctrico desenfocado en primer plano.",
+    "photographer": "aranprime",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "url": "https://unsplash.com/photos/wUn5gdqhLNU",
+    "focal": {
+      "x": 50,
+      "y": 58
+    }
+  },
+  {
+    "file": "posters/apphouse-experiencia.jpg",
+    "shows": "Manos de un hombre con camisa lila usando un smartphone blanco con la pantalla oscura, apoyado en un muro junto a un vaso de té con leche y flores de buganvilla.",
+    "photographer": "Rohit Tandon",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "url": "https://unsplash.com/photos/Mkh2La9fEDY",
+    "focal": {
+      "x": 52,
+      "y": 67
+    }
+  },
+  {
+    "file": "posters/cierre.jpg",
+    "shows": "Vista desde la calle, al anochecer, de una cafetería con lámparas colgantes encendidas: una clienta con el móvil en la mano frente a la barra y un empleado atendiéndola.",
+    "photographer": "Ali Aziz",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "url": "https://unsplash.com/photos/TFm5TGa13IQ",
+    "focal": {
+      "x": 63,
+      "y": 53
+    }
+  },
+  {
+    "file": "posters/pedido-entrega.jpg",
+    "shows": "Una mano coloca una charola con hamburguesas y papas sobre la barra de madera de entrega de un restaurante, junto a un timbre de mostrador.",
+    "photographer": "Ahmet Yüksek",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "url": "https://unsplash.com/photos/EyOVwGzbNoY",
+    "focal": {
+      "x": 58,
+      "y": 58
+    }
+  },
+  {
+    "file": "sectors/restaurante.jpg",
+    "shows": "Interior en penumbra de un restaurante con una parrilla de leña encendida tras la barra y un cocinero de espaldas junto al fuego.",
+    "photographer": "Valentin Kremer",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "url": "https://unsplash.com/photos/S8BhJ0HB-WQ",
+    "focal": {
+      "x": 62,
+      "y": 72
+    }
+  },
+  {
+    "file": "sectors/belleza.jpg",
+    "shows": "Manos de una maquillista tomando un pincel sobre una mesa cubierta de tela negra con una paleta de sombras, brochas, bases y un teléfono.",
+    "photographer": "Rhamely",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "url": "https://unsplash.com/photos/u88INhZV4ok",
+    "focal": {
+      "x": 48,
+      "y": 48
+    }
+  },
+  {
+    "file": "sectors/ferreteria.jpg",
+    "shows": "Interior de una ferretería tradicional: bandas colgadas del techo con etiquetas numeradas, rollos de manguera, una báscula y vitrinas llenas de cajas de refacciones.",
+    "photographer": "Max Bvp",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "url": "https://unsplash.com/photos/6vRQXjOj5Cg",
+    "focal": {
+      "x": 52,
+      "y": 70
+    }
+  },
+  {
+    "file": "sectors/autopartes.jpg",
+    "shows": "Colección de catalizadores y colectores de escape metálicos colgados sobre un panel de rejilla oscuro.",
+    "photographer": "engin akyurt",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "url": "https://unsplash.com/photos/-ShTRctVXlk",
+    "focal": {
+      "x": 50,
+      "y": 55
+    }
+  },
+  {
+    "file": "product/r-tacos.webp",
+    "shows": "Tacos de carne en tortilla de maíz con cebolla picada y cilantro, vistos de cerca.",
+    "photographer": "Jeswin Thomas",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "url": "https://unsplash.com/photos/z_PfaGzeN9E",
+    "focal": {
+      "x": 50,
+      "y": 50
+    }
+  },
+  {
+    "file": "product/r-hamburguesa.webp",
+    "shows": "Hamburguesa doble con queso, lechuga, tomate y salsa sobre una tabla de madera con fondo oscuro.",
+    "photographer": "amirali mirhashemian",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "url": "https://unsplash.com/photos/sc5sTPMrVfk",
+    "focal": {
+      "x": 50,
+      "y": 50
+    }
+  },
+  {
+    "file": "product/r-corte.webp",
+    "shows": "Corte de carne a la parrilla en rebanadas sobre una plancha de hierro, con tomillo y espárragos.",
+    "photographer": "Loija Nguyen",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "url": "https://unsplash.com/photos/NYBnDWeOX2c",
+    "focal": {
+      "x": 50,
+      "y": 50
+    }
+  },
+  {
+    "file": "product/r-guacamole.webp",
+    "shows": "Guacamole en un molcajete de piedra junto a totopos de maíz sobre una tabla de madera.",
+    "photographer": "Zoshua Colah",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "url": "https://unsplash.com/photos/iiMIegrG3Ag",
+    "focal": {
+      "x": 50,
+      "y": 50
+    }
+  },
+  {
+    "file": "product/r-ensalada.webp",
+    "shows": "Tazón azul oscuro con aguacate, garbanzos, quinoa, ejotes, jitomate y pistaches, con una cuchara de madera, sobre fondo oscuro.",
+    "photographer": "Sonny Mauricio",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "url": "https://unsplash.com/photos/yhc4pSbl01A",
+    "focal": {
+      "x": 50,
+      "y": 50
+    }
+  },
+  {
+    "file": "product/r-limonada.webp",
+    "shows": "Vaso alto de limonada con rodajas de limón sobre fondo oscuro, junto a limones enteros.",
+    "photographer": "Hogir saeed",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "url": "https://unsplash.com/photos/BHkjZ7vkQe0",
+    "focal": {
+      "x": 50,
+      "y": 50
+    }
+  },
+  {
+    "file": "product/r-churros.webp",
+    "shows": "Plato de churros junto a una taza de chocolate caliente sobre una mesa oscura.",
+    "photographer": "J Torres",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "url": "https://unsplash.com/photos/ZO606MdzJi0",
+    "focal": {
+      "x": 50,
+      "y": 50
+    }
+  },
+  {
+    "file": "product/r-pay-queso.webp",
+    "shows": "Rebanada de pay de queso con frambuesas sobre un plato negro y un tenedor dorado.",
+    "photographer": "Tina Guina",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "url": "https://unsplash.com/photos/s8_7AqkzCWY",
+    "focal": {
+      "x": 50,
+      "y": 50
+    }
+  },
+  {
+    "file": "product/b-serum.webp",
+    "shows": "Frasco de sérum de vidrio ámbar con gotero blanco sobre un fondo beige con espigas secas.",
+    "photographer": "George Dagerotip",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "url": "https://unsplash.com/photos/io6vt4rAFo0",
+    "focal": {
+      "x": 50,
+      "y": 50
+    }
+  },
+  {
+    "file": "product/b-labial.webp",
+    "shows": "Lápiz labial rojo abierto sobre un fondo rojo.",
+    "photographer": "Qasim Malick",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "url": "https://unsplash.com/photos/Yh9FrbN5Bts",
+    "focal": {
+      "x": 50,
+      "y": 50
+    }
+  },
+  {
+    "file": "product/b-sombras.webp",
+    "shows": "Paleta de sombras de ojos abierta, en tonos neutros y rosados, sobre un fondo marrón.",
+    "photographer": "zeliang xiao",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "url": "https://unsplash.com/photos/THqdExpC5eE",
+    "focal": {
+      "x": 50,
+      "y": 50
+    }
+  },
+  {
+    "file": "product/b-crema.webp",
+    "shows": "Tarro abierto de crema blanca sobre una roca, con fondo oscuro.",
+    "photographer": "Eveling Salazar",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "url": "https://unsplash.com/photos/bM-aV4Jt5qM",
+    "focal": {
+      "x": 50,
+      "y": 50
+    }
+  },
+  {
+    "file": "product/f-taladro.webp",
+    "shows": "Taladro inalámbrico amarillo y negro sobre una mesa de madera rústica, rodeado de brocas, tornillos, una brocha y un martillo.",
+    "photographer": "benjamin lehman",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "url": "https://unsplash.com/photos/EJU7A__krX0",
+    "focal": {
+      "x": 50,
+      "y": 50
+    }
+  },
+  {
+    "file": "product/f-desarmadores.webp",
+    "shows": "Juego de desarmadores con mangos de colores colgados en una barra magnética de un estante de taller.",
+    "photographer": "Erinada Valpurgieva",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "url": "https://unsplash.com/photos/_f-GTKfCsCc",
+    "focal": {
+      "x": 50,
+      "y": 50
+    }
+  },
+  {
+    "file": "product/f-martillo.webp",
+    "shows": "Martillo de uña con mango negro sobre una superficie de madera oscura.",
+    "photographer": "iMattSmart",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "url": "https://unsplash.com/photos/jaLaLQdkBOE",
+    "focal": {
+      "x": 50,
+      "y": 50
+    }
+  },
+  {
+    "file": "product/f-cinta.webp",
+    "shows": "Cinta métrica retráctil azul y amarilla sobre un fondo gris claro.",
+    "photographer": "Brett Jordan",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "url": "https://unsplash.com/photos/faOPbPmznfQ",
+    "focal": {
+      "x": 50,
+      "y": 50
+    }
+  },
+  {
+    "file": "product/a-balatas.webp",
+    "shows": "Disco de freno perforado con su mordaza (cáliper) blanca, montado en un automóvil sin rueda.",
+    "photographer": "Erik Mclean",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "url": "https://unsplash.com/photos/EpT-ZetoKm8",
+    "focal": {
+      "x": 50,
+      "y": 50
+    }
+  },
+  {
+    "file": "product/a-filtro.webp",
+    "shows": "Filtro de aire cónico de alto flujo, de color rojo, instalado en el motor de un auto.",
+    "photographer": "Adrian Kusznirewicz",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "url": "https://unsplash.com/photos/Sh6xyQQYDz4",
+    "focal": {
+      "x": 50,
+      "y": 50
+    }
+  },
+  {
+    "file": "product/a-bujias.webp",
+    "shows": "Varias bujías metálicas nuevas flotando sobre un fondo gris degradado (imagen de aspecto generado en 3D).",
+    "photographer": "ObjectType RAW",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "url": "https://unsplash.com/photos/xRcR5P-sGBI",
+    "focal": {
+      "x": 50,
+      "y": 50
+    }
+  },
+  {
+    "file": "product/a-aceite.webp",
+    "shows": "Chorro de aceite dorado vertiéndose desde un envase oscuro, en primer plano.",
+    "photographer": "Nguyen Kiet",
+    "source": "Unsplash",
+    "license": "Unsplash License",
+    "url": "https://unsplash.com/photos/qSzgoWQVSTE",
+    "focal": {
+      "x": 50,
+      "y": 50
+    }
+  }
+]

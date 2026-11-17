@@ -1,0 +1,364 @@
+@import "tailwindcss";
+
+/* ------------------------------------------------------------------
+   Apphouse · sistema visual
+   Carbón + blanco cálido como base editorial. El aqua/azul proviene del
+   logotipo oficial (tecnología); la terracota aporta el lado humano.
+------------------------------------------------------------------- */
+@theme {
+  --font-sans: var(--font-figtree), ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-display: var(--font-bricolage), var(--font-figtree), ui-sans-serif, system-ui, sans-serif;
+
+  --color-ink-950: #0a0e0e;
+  --color-ink-900: #101413;
+  --color-ink-800: #151b1a;
+  --color-ink-700: #1c2423;
+  --color-ink-600: #263130;
+  --color-ink-500: #36423f;
+  --color-ink-400: #55625e;
+
+  --color-paper: #f7f5f0;
+  --color-paper-200: #efece4;
+  --color-paper-300: #e3dfd4;
+  --color-paper-400: #cfcabd;
+
+  --color-stone: #aeb5b0;
+  --color-sage: #6d8274;
+  --color-sage-700: #4c5f54;
+
+  --color-terra: #ee8260;
+  --color-terra-600: #d4623e;
+  --color-terra-700: #a94a2b;
+
+  --color-aqua: #43d7bd;
+  --color-aqua-300: #8ae8d8;
+  --color-teal: #36a0ad;
+  --color-teal-700: #1a6b75;
+  --color-azure: #4d6aeb;
+  --color-navy: #153c7a;
+
+  --ease-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-soft: cubic-bezier(0.22, 0.61, 0.36, 1);
+
+  --animate-kenburns-a: kenburns-a 9s var(--ease-soft) both;
+  --animate-kenburns-b: kenburns-b 9s var(--ease-soft) both;
+  --animate-rise: rise 1s var(--ease-expo) both;
+  --animate-fade-up: fade-up 0.9s var(--ease-expo) both;
+  --animate-scroll-hint: scroll-hint 2.4s var(--ease-soft) infinite;
+  --animate-pulse-ring: pulse-ring 2.2s var(--ease-soft) infinite;
+  --animate-route: route-dash 1.4s linear infinite;
+}
+
+/* --------------------------- Animaciones --------------------------- */
+/* Fuera de @theme para que siempre se incluyan en el CSS final. */
+@keyframes kenburns-a {
+  from {
+    transform: scale(1.04) translate3d(0, 0, 0);
+  }
+  to {
+    transform: scale(1.14) translate3d(-1.5%, -1%, 0);
+  }
+}
+@keyframes kenburns-b {
+  from {
+    transform: scale(1.14) translate3d(1.5%, -1%, 0);
+  }
+  to {
+    transform: scale(1.04) translate3d(0, 0, 0);
+  }
+}
+@keyframes rise {
+  from {
+    transform: translate3d(0, 110%, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 18px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes scene-progress {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+@keyframes scroll-hint {
+  0% {
+    transform: translate3d(0, -100%, 0);
+  }
+  60%,
+  100% {
+    transform: translate3d(0, 100%, 0);
+  }
+}
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.6);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(2.4);
+    opacity: 0;
+  }
+}
+@keyframes route-dash {
+  to {
+    stroke-dashoffset: -16;
+  }
+}
+
+/* ------------------------------ Base ------------------------------ */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+    -webkit-text-size-adjust: 100%;
+    overflow-x: clip;
+  }
+
+  body {
+    background: var(--color-ink-950);
+    color: var(--color-paper);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    overflow-x: clip;
+  }
+
+  ::selection {
+    background: color-mix(in srgb, var(--color-aqua) 70%, transparent);
+    color: var(--color-ink-950);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-aqua);
+    outline-offset: 3px;
+    border-radius: 6px;
+  }
+
+  button,
+  [role="tab"],
+  summary {
+    cursor: pointer;
+  }
+
+  button:disabled {
+    cursor: not-allowed;
+  }
+
+  dialog {
+    color: inherit;
+  }
+
+  /* Quita las flechas del input numérico de la calculadora. */
+  input[type="number"]::-webkit-outer-spin-button,
+  input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
+}
+
+/* --------------------------- Componentes --------------------------- */
+@layer components {
+  .container-x {
+    width: 100%;
+    max-width: 84rem;
+    margin-inline: auto;
+    padding-inline: 1.25rem;
+  }
+  @media (min-width: 640px) {
+    .container-x {
+      padding-inline: 2rem;
+    }
+  }
+  @media (min-width: 1024px) {
+    .container-x {
+      padding-inline: 3rem;
+    }
+  }
+
+  /* Titulares editoriales: compactos, apretados y con peso. */
+  .h-display {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-stretch: 88%;
+    letter-spacing: -0.024em;
+    line-height: 0.96;
+    text-wrap: balance;
+  }
+
+  .h-section {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-stretch: 90%;
+    letter-spacing: -0.022em;
+    line-height: 1;
+    font-size: clamp(2.1rem, 4.6vw, 4.25rem);
+    text-wrap: balance;
+  }
+
+  .h-card {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-stretch: 92%;
+    letter-spacing: -0.02em;
+    line-height: 1.08;
+  }
+
+  .eyebrow {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+  }
+
+  .lede {
+    font-size: clamp(1.02rem, 1.25vw, 1.2rem);
+    line-height: 1.55;
+    text-wrap: pretty;
+  }
+
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Grano de película: estático, una sola textura repetida. */
+  .grain::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 2;
+    opacity: 0.11;
+    mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.9 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    background-size: 220px 220px;
+  }
+
+  .no-scrollbar {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .skip-link {
+    position: fixed;
+    left: 1rem;
+    top: 1rem;
+    z-index: 100;
+    transform: translateY(-200%);
+    background: var(--color-paper);
+    color: var(--color-ink-950);
+    padding: 0.75rem 1rem;
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: 0.875rem;
+    transition: transform 0.2s var(--ease-soft);
+  }
+  .skip-link:focus-visible {
+    transform: translateY(0);
+  }
+
+  /* Palabras del titular del hero: entran por CSS para no depender de la hidratación. */
+  .hero-word {
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: bottom;
+    padding-bottom: 0.14em;
+    margin-bottom: -0.14em;
+  }
+  .hero-word > span {
+    display: inline-block;
+    animation: rise 1.05s var(--ease-expo) both;
+    animation-delay: calc(var(--i, 0) * 55ms + 180ms);
+    will-change: transform;
+  }
+
+  /* La duración real de cada escena se define en línea desde src/config/media.ts. */
+  .scene-progress {
+    transform-origin: left center;
+    animation: scene-progress 5.4s linear forwards;
+  }
+
+  /* <dialog> a pantalla completa (menú móvil y demostración). */
+  .dialog-full {
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100dvh;
+    max-width: none;
+    max-height: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+  }
+  .dialog-full::backdrop,
+  .dialog-card::backdrop {
+    background: rgb(10 14 14 / 0.72);
+    backdrop-filter: blur(6px);
+  }
+  .dialog-card {
+    margin: auto;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    max-width: min(34rem, calc(100vw - 2rem));
+    width: 100%;
+  }
+  dialog[open].dialog-full,
+  dialog[open].dialog-card {
+    animation: fade-up 0.45s var(--ease-expo) both;
+  }
+}
+
+/* ----------------------- Movimiento reducido ----------------------- */
+/* Se aplica con la preferencia del sistema o con el interruptor del sitio
+   (html[data-motion="reduced"]). Las animaciones ambientales se detienen;
+   toda la interfaz sigue funcionando. */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .motion-ambient,
+  .scene-progress,
+  .hero-word > span,
+  dialog[open].dialog-full,
+  dialog[open].dialog-card {
+    animation: none !important;
+  }
+  .scene-progress {
+    transform: none;
+  }
+}
+html[data-motion="reduced"] {
+  scroll-behavior: auto;
+}
+html[data-motion="reduced"] .motion-ambient,
+html[data-motion="reduced"] .scene-progress,
+html[data-motion="reduced"] .hero-word > span,
+html[data-motion="reduced"] dialog[open].dialog-full,
+html[data-motion="reduced"] dialog[open].dialog-card {
+  animation: none !important;
+}
+html[data-motion="reduced"] .scene-progress {
+  transform: none;
+}
